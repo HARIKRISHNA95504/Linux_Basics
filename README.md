@@ -43,3 +43,67 @@ D:                    137G   35G  103G  26% /d
 ```
 
 ```
+* to Konw the SHELL we use the command
+```
+echo $SHELL
+```
+```
+HARIKRISHNA@LAPTOP-S1ET7NA0 MINGW64 ~ (main)
+$ echo $SHELL
+/usr/bin/bash
+```
+* To Know the name
+* use the command is "uname -r "
+```
+HARIKRISHNA@LAPTOP-S1ET7NA0 MINGW64 ~ (main)
+$ uname -r
+3.4.10-87d57229.x86_64
+```
+* To create a Folder
+```
+mkdir
+```
+```
+HARIKRISHNA@LAPTOP-S1ET7NA0 MINGW64 ~ (main)
+$ cd Downloads/
+
+```
+```
+HARIKRISHNA@LAPTOP-S1ET7NA0 MINGW64 ~/Downloads (main)
+$ mkdir aws
+```
+* for creating multiple folders
+```
+HARIKRISHNA@LAPTOP-S1ET7NA0 MINGW64 ~/Downloads (main)
+$ mkdir rrrr azure
+```
+* I want to create a file
+* use the command is " touch "
+```
+touch aws.txt
+```
+```
+HARIKRISHNA@LAPTOP-S1ET7NA0 MINGW64 ~/Downloads (main)
+$ touch aws.txt
+```
+* I want to create 10 files at a time
+* use this command pattern
+```
+touch aws-{1..10}.txt
+```
+* use case :
+```
+HARIKRISHNA@LAPTOP-S1ET7NA0 MINGW64 ~/Downloads (main)
+$ touch aws-{1..10}.txt
+```
+* you can jump into the present working directory to direct home directory
+* just use this command
+```
+cd ~
+```
+* use case :
+```
+HARIKRISHNA@LAPTOP-S1ET7NA0 MINGW64 ~/Downloads/aws/aws-sub-1 (main)
+$ cd ~
+```
+
